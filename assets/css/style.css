@@ -1,0 +1,75 @@
+
+body{
+    text-align: center;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-sem-emenda-do-tictactoe-na-ilustracao-vetorial-azul-escuro_126267-8257.jpg?w=2000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: navy;
+    padding: 0;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+.stage{
+    background-color: rgb(216, 230, 243);
+    width: fit-content;
+    margin: 50px auto;
+    padding: 0 100px;
+
+}
+
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(68, 68, 223);
+    border: 1px solid blue;
+}
+
+.o{
+    position: relative;
+
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F497";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+
+}
+
+.x:after{
+    position: absolute;
+    content: "\1F3F9";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#button_restart{
+    margin: 30px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    color: navy;
+}
