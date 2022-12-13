@@ -9,14 +9,14 @@ Events;
 Laços de Repetição;
 Pseudo-elementos.
 
-##🚀 Objetivo do projeto.
+## 🚀 Objetivo do projeto.
 
 Criar um jogo;
 Lógica de game, com um final definido;
 Trabalhar com emoticons atraves dos  pseudo-elementos;
 Trabalhar o Design com CSS;
 
-##🛠 Tecnologias
+## 🛠 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 HTML5
