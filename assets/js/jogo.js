@@ -33,6 +33,7 @@ function handleMove(position){
             // Versao Ternaria
             // Se o Player1 jogou a vez passa para o Player2
             playerTime = (playerTime == 0)?1:0;
+            player = (playerTime == 0)? 'Player 1' : 'Player 2'
         }     
     }
         return gameOver;
